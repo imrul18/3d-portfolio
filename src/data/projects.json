@@ -1,0 +1,132 @@
+{
+  "projects": [
+    {
+      "id": "aqua-life",
+      "slug": "aqua-life",
+      "name": "Aqua-Life",
+      "shortDescription": "TODO: One-sentence summary of Aqua-Life.",
+      "fullDescription": "TODO: What Aqua-Life is, who it serves and what you built.",
+      "technologies": [],
+      "category": "web",
+      "role": "TODO: Your role",
+      "features": [],
+      "challenges": [],
+      "featured": true,
+      "order": 1,
+      "liveUrl": "",
+      "sourceUrl": "",
+      "details": true
+    },
+    {
+      "id": "boutikio",
+      "slug": "boutikio",
+      "name": "Boutikio",
+      "shortDescription": "TODO: One-sentence summary of Boutikio.",
+      "fullDescription": "TODO: What Boutikio is, who it serves and what you built.",
+      "technologies": [],
+      "category": "web",
+      "role": "TODO: Your role",
+      "featured": true,
+      "order": 2,
+      "details": true
+    },
+    {
+      "id": "pioneer-tours",
+      "slug": "pioneer-tours",
+      "name": "Pioneer Tours",
+      "shortDescription": "TODO: One-sentence summary of Pioneer Tours.",
+      "fullDescription": "TODO: What Pioneer Tours is, who it serves and what you built.",
+      "technologies": [],
+      "category": "web",
+      "role": "TODO: Your role",
+      "featured": true,
+      "order": 3,
+      "details": true
+    },
+    {
+      "id": "driver-delivery-app",
+      "slug": "driver-delivery-app",
+      "name": "Driver Delivery App",
+      "shortDescription": "TODO: One-sentence summary of the Driver Delivery App.",
+      "fullDescription": "TODO: What the app does, who uses it and what you built.",
+      "technologies": [],
+      "category": "mobile",
+      "role": "TODO: Your role",
+      "featured": true,
+      "order": 4,
+      "details": true
+    },
+    {
+      "id": "meeting-recorder",
+      "slug": "meeting-recorder",
+      "name": "Meeting Recorder",
+      "shortDescription": "TODO: One-sentence summary of Meeting Recorder.",
+      "fullDescription": "TODO: What Meeting Recorder does and what you built.",
+      "technologies": [],
+      "category": "mobile",
+      "role": "TODO: Your role",
+      "order": 5,
+      "details": true
+    },
+    {
+      "id": "lottery-system",
+      "slug": "lottery-system",
+      "name": "Lottery System",
+      "shortDescription": "TODO: One-sentence summary of the Lottery System.",
+      "fullDescription": "TODO: What the system does and what you built.",
+      "technologies": [],
+      "category": "platform",
+      "role": "TODO: Your role",
+      "order": 6,
+      "details": true
+    },
+    {
+      "id": "courier-system",
+      "slug": "courier-system",
+      "name": "Courier System",
+      "shortDescription": "TODO: One-sentence summary of the Courier System.",
+      "fullDescription": "TODO: What the system does and what you built.",
+      "technologies": [],
+      "category": "platform",
+      "role": "TODO: Your role",
+      "order": 7,
+      "details": true
+    },
+    {
+      "id": "video-upload-platform",
+      "slug": "video-upload-platform",
+      "name": "Video Upload Platform",
+      "shortDescription": "TODO: One-sentence summary of the Video Upload Platform.",
+      "fullDescription": "TODO: What the platform does and what you built.",
+      "technologies": [],
+      "category": "platform",
+      "role": "TODO: Your role",
+      "order": 8,
+      "details": true
+    },
+    {
+      "id": "all-about-the-options",
+      "slug": "all-about-the-options",
+      "name": "All About The Options",
+      "shortDescription": "TODO: One-sentence summary of All About The Options.",
+      "fullDescription": "TODO: What the product is and what you built.",
+      "technologies": [],
+      "category": "web",
+      "role": "TODO: Your role",
+      "order": 9,
+      "details": true
+    },
+    {
+      "id": "cel-cms",
+      "slug": "cel-cms",
+      "name": "CEL-CMS",
+      "shortDescription": "TODO: One-sentence summary of CEL-CMS.",
+      "fullDescription": "TODO: What the CMS manages and what you built.",
+      "technologies": [],
+      "category": "platform",
+      "role": "TODO: Your role",
+      "order": 10,
+      "details": true
+    }
+  ]
+}
