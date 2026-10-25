@@ -16,7 +16,7 @@ export function externalLinkProps(href: string) {
 export function initials(name: string, max = 2): string {
   return name
     .split(/[\s-]+/)
-    .filter(Boolean)
+    .filter((part) => /[\p{L}\p{N}]/u.test(part))
     .slice(0, max)
     .map((part) => part[0]?.toUpperCase() ?? "")
     .join("");

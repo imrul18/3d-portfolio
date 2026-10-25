@@ -7,9 +7,10 @@ import type { ProjectsSectionConfig } from "@/types/project";
  */
 export const projectsConfig: ProjectsSectionConfig = {
   categories: [
-    { id: "web", label: "Web" },
-    { id: "mobile", label: "Mobile" },
-    { id: "platform", label: "Platforms & systems" },
+    { id: "web", label: "Web platforms" },
+    { id: "business", label: "Business systems" },
+    { id: "ai", label: "AI & SaaS" },
+    { id: "tools", label: "Tools & APIs" },
   ],
   featuredOnly: false,
 };
