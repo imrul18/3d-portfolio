@@ -247,7 +247,7 @@ export function ProjectsScreen({
           {items.length} projects
         </span>
       </div>
-      <ul className={cn("grid min-h-0 flex-1 content-start gap-3 overflow-y-auto [scrollbar-width:thin]", layout === "screen" ? "grid-cols-5" : "grid-cols-2")}>
+      <ul className={cn("grid min-h-0 flex-1 auto-rows-max content-start gap-3 overflow-y-auto [scrollbar-width:thin]", layout === "screen" ? "grid-cols-5" : "grid-cols-2")}>
         {items.map((project) => {
           const body = (
             <>

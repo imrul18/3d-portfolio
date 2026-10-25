@@ -1,132 +1,532 @@
 {
   "projects": [
     {
-      "id": "aqua-life",
-      "slug": "aqua-life",
-      "name": "Aqua-Life",
-      "shortDescription": "TODO: One-sentence summary of Aqua-Life.",
-      "fullDescription": "TODO: What Aqua-Life is, who it serves and what you built.",
-      "technologies": [],
+      "id": "electropia",
+      "slug": "electropia",
+      "name": "Electropia",
+      "shortDescription": "Multi-vendor electronics marketplace for Bangladesh with a web storefront, merchant and affiliate dashboards, and a mobile app.",
+      "fullDescription": "A full electronics marketplace: a Bangla-first Next.js storefront, a NestJS + Prisma API on PostgreSQL, admin, merchant and affiliate portals, and an Expo mobile app. Merchants open verified shops and list catalogue products with variants, specs, add-ons and tiered pricing, while affiliates earn commissions through attribution rules.",
+      "technologies": [
+        "NestJS",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "React Native",
+        "Expo"
+      ],
       "category": "web",
-      "role": "TODO: Your role",
-      "features": [],
-      "challenges": [],
+      "features": [
+        "Bangla storefront with categories, brands and shop pages",
+        "Merchant shops with verification, product variants, specs, add-ons and price slabs",
+        "Affiliate program with attribution tracking and commission rate rules",
+        "Cart, wishlist, orders, payments, refunds and return requests",
+        "Wallets and a finance ledger for payouts",
+        "Admin roles and permissions, OTP sign-in, Excel and PDF exports",
+        "Expo mobile app built with React Query and Zustand"
+      ],
       "featured": true,
       "order": 1,
-      "liveUrl": "",
-      "sourceUrl": "",
-      "details": true
+      "details": true,
+      "startDate": "2026-01",
+      "coverImage": {
+        "src": "/projects/electropia/storefront.jpg",
+        "alt": "Electropia storefront header, categories and shopping benefits"
+      }
     },
     {
-      "id": "boutikio",
-      "slug": "boutikio",
-      "name": "Boutikio",
-      "shortDescription": "TODO: One-sentence summary of Boutikio.",
-      "fullDescription": "TODO: What Boutikio is, who it serves and what you built.",
-      "technologies": [],
-      "category": "web",
-      "role": "TODO: Your role",
+      "id": "eury",
+      "slug": "eury",
+      "name": "Eury AI Platform",
+      "shortDescription": "AI development SaaS with a web app, a NestJS API and a desktop coding agent.",
+      "fullDescription": "Eury is an AI platform made of three parts: a Next.js web app with a 3D interface, a NestJS API that handles identity, billing, a managed model gateway and team collaboration, and a Tauri desktop coding agent that runs its agent loop, tools and data store on the user's own machine.",
+      "technologies": [
+        "Next.js",
+        "React",
+        "React Three Fiber",
+        "NestJS",
+        "Prisma",
+        "PostgreSQL",
+        "BullMQ",
+        "Redis",
+        "Socket.IO",
+        "Stripe",
+        "OpenAI",
+        "Anthropic",
+        "Tauri"
+      ],
+      "category": "ai",
+      "features": [
+        "AI chat and tasks across OpenAI and Anthropic models with per-task model settings",
+        "Usage-based credits, plans, coupons and Stripe billing with webhook handling",
+        "Organizations, teams, projects, agent skills, rules and a plugin marketplace",
+        "Collab: office document storage with in-browser editing via Collabora (WOPI)",
+        "Desktop agent with a sandboxed workspace, tool layer, approval policies and PKCE device sign-in"
+      ],
       "featured": true,
       "order": 2,
-      "details": true
+      "details": true,
+      "startDate": "2026-07",
+      "coverImage": {
+        "src": "/projects/eury/landing.jpg",
+        "alt": "Eury AI landing page: one subscription for every leading AI model"
+      },
+      "gallery": [
+        {
+          "src": "/projects/eury/landing-problem.jpg",
+          "alt": "Eury AI landing page section explaining the problems it solves"
+        },
+        {
+          "src": "/projects/eury/landing-how-it-works.jpg",
+          "alt": "Eury AI landing page 'up and running in a minute' steps"
+        },
+        {
+          "src": "/projects/eury/agent-home.jpg",
+          "alt": "Eury desktop agent home screen with chat and recent projects (design mockup)"
+        },
+        {
+          "src": "/projects/eury/agent-code.jpg",
+          "alt": "Eury desktop agent fixing a failing test in Code mode (design mockup)"
+        },
+        {
+          "src": "/projects/eury/agent-diff-approval.jpg",
+          "alt": "Eury desktop agent asking for approval before applying a diff (design mockup)"
+        },
+        {
+          "src": "/projects/eury/agent-plan.jpg",
+          "alt": "Eury desktop agent building a step-by-step plan (design mockup)"
+        }
+      ]
     },
     {
-      "id": "pioneer-tours",
-      "slug": "pioneer-tours",
-      "name": "Pioneer Tours",
-      "shortDescription": "TODO: One-sentence summary of Pioneer Tours.",
-      "fullDescription": "TODO: What Pioneer Tours is, who it serves and what you built.",
-      "technologies": [],
-      "category": "web",
-      "role": "TODO: Your role",
+      "id": "optimizify",
+      "slug": "optimizify",
+      "name": "Optimizify",
+      "shortDescription": "YouTube growth platform with keyword strategy, thumbnails, native ads, a Chrome extension and AI transcription.",
+      "fullDescription": "A SaaS platform for YouTube creators. A Laravel core and a React + TypeScript app cover keyword strategy, thumbnail generation, native ad orders and live-stream tools, with Stripe billing. Around it sit a Chrome extension that shows video stats on YouTube, a Django REST API and a self-hosted Whisper transcription service.",
+      "technologies": [
+        "Laravel",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "TanStack Query",
+        "Stripe",
+        "Google Ads API",
+        "Google APIs",
+        "Pusher",
+        "Django",
+        "faster-whisper",
+        "Chrome Extension"
+      ],
+      "category": "ai",
+      "features": [
+        "Keyword strategies, thumbnail templates and generation logs",
+        "Native ads ordering with balance top-ups, auto-refill and promo codes",
+        "Live stream, channel and calendar tools",
+        "Admin email automation with a drag-and-drop template builder and scheduled campaigns",
+        "Chrome extension (Manifest v3) that injects video stats into YouTube watch pages",
+        "Whisper transcription API for audio and video, with SRT and VTT output"
+      ],
       "featured": true,
       "order": 3,
-      "details": true
-    },
-    {
-      "id": "driver-delivery-app",
-      "slug": "driver-delivery-app",
-      "name": "Driver Delivery App",
-      "shortDescription": "TODO: One-sentence summary of the Driver Delivery App.",
-      "fullDescription": "TODO: What the app does, who uses it and what you built.",
-      "technologies": [],
-      "category": "mobile",
-      "role": "TODO: Your role",
-      "featured": true,
-      "order": 4,
-      "details": true
-    },
-    {
-      "id": "meeting-recorder",
-      "slug": "meeting-recorder",
-      "name": "Meeting Recorder",
-      "shortDescription": "TODO: One-sentence summary of Meeting Recorder.",
-      "fullDescription": "TODO: What Meeting Recorder does and what you built.",
-      "technologies": [],
-      "category": "mobile",
-      "role": "TODO: Your role",
-      "order": 5,
-      "details": true
-    },
-    {
-      "id": "lottery-system",
-      "slug": "lottery-system",
-      "name": "Lottery System",
-      "shortDescription": "TODO: One-sentence summary of the Lottery System.",
-      "fullDescription": "TODO: What the system does and what you built.",
-      "technologies": [],
-      "category": "platform",
-      "role": "TODO: Your role",
-      "order": 6,
-      "details": true
-    },
-    {
-      "id": "courier-system",
-      "slug": "courier-system",
-      "name": "Courier System",
-      "shortDescription": "TODO: One-sentence summary of the Courier System.",
-      "fullDescription": "TODO: What the system does and what you built.",
-      "technologies": [],
-      "category": "platform",
-      "role": "TODO: Your role",
-      "order": 7,
-      "details": true
-    },
-    {
-      "id": "video-upload-platform",
-      "slug": "video-upload-platform",
-      "name": "Video Upload Platform",
-      "shortDescription": "TODO: One-sentence summary of the Video Upload Platform.",
-      "fullDescription": "TODO: What the platform does and what you built.",
-      "technologies": [],
-      "category": "platform",
-      "role": "TODO: Your role",
-      "order": 8,
-      "details": true
+      "details": true,
+      "startDate": "2023-02",
+      "coverImage": {
+        "src": "/projects/optimizify/landing.jpg",
+        "alt": "Optimizify landing page: AI-powered YouTube SEO and video optimisation"
+      },
+      "gallery": [
+        {
+          "src": "/projects/optimizify/features.jpg",
+          "alt": "Optimizify SmartRank keyword selection feature"
+        },
+        {
+          "src": "/projects/optimizify/seo-tagging.jpg",
+          "alt": "Optimizify YouTube SEO tagging feature"
+        },
+        {
+          "src": "/projects/optimizify/share-image.jpg",
+          "alt": "Optimizify social share image"
+        }
+      ]
     },
     {
       "id": "all-about-the-options",
       "slug": "all-about-the-options",
       "name": "All About The Options",
-      "shortDescription": "TODO: One-sentence summary of All About The Options.",
-      "fullDescription": "TODO: What the product is and what you built.",
-      "technologies": [],
+      "shortDescription": "Options-trading education and market-data platform with web, admin and mobile apps.",
+      "fullDescription": "A subscription platform for options traders: courses and documents, live market data with time and sales, price alerts and chat. A Laravel API powers a React web app, a React admin panel and an Expo mobile app, with Stripe and PayPal subscriptions and SMS and push notifications.",
+      "technologies": [
+        "Laravel",
+        "React",
+        "Redux Toolkit",
+        "React Native",
+        "Expo",
+        "Stripe",
+        "PayPal",
+        "Twilio",
+        "Firebase",
+        "WebSockets",
+        "Tailwind CSS"
+      ],
       "category": "web",
-      "role": "TODO: Your role",
-      "order": 9,
-      "details": true
+      "features": [
+        "Courses, programs and course documents",
+        "Live market data, time and sales, market closures and alerts",
+        "Real-time market data ingestion over WebSockets",
+        "Member chat and a news portal",
+        "Stripe and PayPal subscriptions with history and webhooks",
+        "SMS via Twilio and push notifications to mobile devices"
+      ],
+      "featured": true,
+      "order": 4,
+      "details": true,
+      "startDate": "2025-01"
     },
     {
-      "id": "cel-cms",
-      "slug": "cel-cms",
-      "name": "CEL-CMS",
-      "shortDescription": "TODO: One-sentence summary of CEL-CMS.",
-      "fullDescription": "TODO: What the CMS manages and what you built.",
-      "technologies": [],
-      "category": "platform",
-      "role": "TODO: Your role",
-      "order": 10,
-      "details": true
+      "id": "best-in-rome-tour",
+      "slug": "best-in-rome-tour",
+      "name": "Best in Rome Tour",
+      "shortDescription": "Tour marketplace with vendor accounts, Bókun synchronisation, online payments and settlements.",
+      "fullDescription": "A multi-vendor tour booking marketplace. Vendors manage tours, options and availability (or sync them from Bókun on a background queue with live progress), customers book and pay with Stripe, and the platform handles reviews, coupons, cancellations, settlement invoices and a full admin back office.",
+      "technologies": [
+        "Laravel",
+        "Laravel Reverb",
+        "Stripe",
+        "Next.js",
+        "React",
+        "Redux Toolkit",
+        "Ant Design",
+        "Tailwind CSS",
+        "DomPDF"
+      ],
+      "category": "web",
+      "features": [
+        "Tours with options, availability, images, versions and an approval workflow",
+        "Queued Bókun sync with live progress, stop and resume",
+        "Stripe payments, coupons and cancellation requests",
+        "Vendor profiles, settlement invoices and PDF invoices with QR codes",
+        "Reviews, blog with comment moderation, newsletter and partnership inquiries",
+        "Real-time notifications and transactional emails"
+      ],
+      "featured": true,
+      "order": 5,
+      "details": true,
+      "startDate": "2026-07",
+      "endDate": "2026-09",
+      "coverImage": {
+        "src": "/projects/best-in-rome-tour/home.jpg",
+        "alt": "Best in Rome Tour homepage with tour search"
+      },
+      "gallery": [
+        {
+          "src": "/projects/best-in-rome-tour/home-beaches.jpg",
+          "alt": "Best in Rome Tour homepage hero slide"
+        }
+      ]
+    },
+    {
+      "id": "courtesy-express",
+      "slug": "courtesy-express",
+      "name": "Courtesy Express",
+      "shortDescription": "Courier and delivery operations system with route optimisation and live driver tracking.",
+      "fullDescription": "Operations software for a courier company: customers, orders and projects are planned into routes, optimised through Routific, and tracked through driver activity webhooks and a registered driver app, with real-time updates in the dispatch dashboard.",
+      "technologies": [
+        "Laravel",
+        "Laravel Reverb",
+        "Vue",
+        "Vuetify",
+        "Pinia",
+        "Mapbox",
+        "Chart.js",
+        "Routific API"
+      ],
+      "category": "business",
+      "features": [
+        "Customers, addresses, orders and pricing packages",
+        "Projects, routes and schedules with Routific route optimisation",
+        "Driver activity and shipping events via webhooks",
+        "Driver app device registration and delivery exceptions",
+        "Real-time dispatch updates and Excel import/export"
+      ],
+      "featured": true,
+      "order": 6,
+      "details": true,
+      "startDate": "2024-03",
+      "endDate": "2025-09"
+    },
+    {
+      "id": "lerenjo-solar",
+      "slug": "lerenjo-solar",
+      "name": "Lerenjo Solar CRM",
+      "shortDescription": "Solar installation CRM with a web dashboard and a Flutter field app.",
+      "fullDescription": "A CRM for a solar installation business that tracks every job from lead to installation: lead forms and documents, payments and financing, delivery challans, panel, battery and inverter inventory, and a complaints workflow. Field teams use a Flutter app with OTP sign-in and role-based menus.",
+      "technologies": [
+        "Laravel",
+        "Vue",
+        "Vuetify",
+        "Flutter",
+        "Leaflet",
+        "Mapbox",
+        "DomPDF",
+        "PhpSpreadsheet"
+      ],
+      "category": "business",
+      "features": [
+        "Leads with forms, files, customised documents, payments and NBFC financing",
+        "Inventory for solar panels, batteries, GTI inverters, kits and vehicles",
+        "Delivery challans, drivers and branch management",
+        "Complaints with comments and status history",
+        "Role-based access for admins, project managers, Surya Mitras, technicians and customers",
+        "Flutter app with OTP login, document scanning and camera capture"
+      ],
+      "featured": false,
+      "order": 7,
+      "details": true,
+      "startDate": "2025-07"
+    },
+    {
+      "id": "lerenjo-ecommerce",
+      "slug": "lerenjo-ecommerce",
+      "name": "Lerenjo E-commerce",
+      "shortDescription": "Regional e-commerce platform with vendor stock, district-based selling and coordinator commissions.",
+      "fullDescription": "An e-commerce platform with a Laravel + Vue back office and a Next.js storefront. Products have variants and stock lots, selling is controlled by allowed vendors and district groups, and coordinators earn commission payouts on orders.",
+      "technologies": [
+        "Laravel",
+        "Vue",
+        "Vuetify",
+        "Next.js",
+        "React",
+        "NextAuth",
+        "Zustand",
+        "TanStack Query",
+        "Tailwind CSS"
+      ],
+      "category": "web",
+      "features": [
+        "Products with variants, images, stock lots, reviews and favourites",
+        "Orders with estimates, payments and status history",
+        "Allowed vendors and district groups",
+        "Coordinator commission payouts and GST records",
+        "Promo codes, homepage banners, FAQs and newsletter",
+        "OTP login and QR codes"
+      ],
+      "featured": false,
+      "order": 8,
+      "details": true,
+      "startDate": "2026-06",
+      "endDate": "2026-09"
+    },
+    {
+      "id": "pac-dealserve",
+      "slug": "pac-dealserve",
+      "name": "PAC DealServe",
+      "shortDescription": "Ad-operations reporting and support platform for advertisers, campaigns and ad zones.",
+      "fullDescription": "An ad-operations platform that tracks advertisers, campaign insertion orders and ad zones, aggregates slot, domain and analytics reports, manages subscriptions with reminders, and includes a support ticketing system, with automated backups to Google Drive.",
+      "technologies": [
+        "Laravel",
+        "Vue",
+        "Vuetify",
+        "Pinia",
+        "Chart.js",
+        "Google Drive API",
+        "Excel"
+      ],
+      "category": "business",
+      "features": [
+        "Advertisers, agents, clients and campaign insertion orders",
+        "Ad zone, slot, domain and track summary reports",
+        "Manual and analytics report imports",
+        "Subscriptions with reminders",
+        "Support tickets with messages, attachments and activity logs",
+        "Scheduled backups to Google Drive"
+      ],
+      "featured": false,
+      "order": 12,
+      "details": true,
+      "startDate": "2026-05",
+      "endDate": "2026-09"
+    },
+    {
+      "id": "pac-self-serve",
+      "slug": "pac-self-serve",
+      "name": "PAC Self Serve",
+      "shortDescription": "Self-serve portal where advertisers manage ad zones, campaigns, subscriptions and support.",
+      "fullDescription": "A self-serve companion to PAC DealServe: a Laravel API with an Inertia React admin and a Next.js + Material UI client portal, covering advertiser ad zones, insertion orders, subscriptions, tickets and in-app notifications, with group- and module-based permissions.",
+      "technologies": [
+        "Laravel",
+        "Inertia.js",
+        "React",
+        "TypeScript",
+        "Next.js",
+        "NextAuth",
+        "Material UI",
+        "TanStack Query"
+      ],
+      "category": "business",
+      "features": [
+        "Advertiser ad zones and campaign insertion orders",
+        "Subscriptions and reminders",
+        "Support tickets with attachments and activity logs",
+        "In-app notifications to selected recipients",
+        "Groups and modules for permissions"
+      ],
+      "featured": false,
+      "order": 13,
+      "details": true,
+      "startDate": "2026-10"
+    },
+    {
+      "id": "avenza",
+      "slug": "avenza",
+      "name": "Avenza",
+      "shortDescription": "Booking operations tool that syncs Bókun bookings and automates customer communication.",
+      "fullDescription": "An operations dashboard for tour companies: bookings and experiences are imported from Bókun with processing logs, and booking communications go out over SMS through Twilio, with multi-company accounts, manager profiles and role-based access.",
+      "technologies": [
+        "Laravel",
+        "Vue",
+        "Vuetify",
+        "Pinia",
+        "Twilio"
+      ],
+      "category": "business",
+      "features": [
+        "Bókun booking and experience sync with processing logs",
+        "Booking communications via Twilio SMS",
+        "Companies, manager profiles and stored payment cards",
+        "Roles and permissions"
+      ],
+      "featured": false,
+      "order": 14,
+      "details": true,
+      "startDate": "2026-07",
+      "endDate": "2026-09"
+    },
+    {
+      "id": "ticket-management",
+      "slug": "ticket-management",
+      "name": "Ticket Management System",
+      "shortDescription": "Support ticketing system that turns incoming emails into tickets in real time.",
+      "fullDescription": "A Laravel + Vue helpdesk that fetches emails over IMAP (Gmail and other providers) and converts them into ticket conversations, with email filters, social sign-in and real-time updates for agents.",
+      "technologies": [
+        "Laravel",
+        "Laravel Reverb",
+        "Vue",
+        "Vuetify",
+        "IMAP",
+        "Laravel Socialite"
+      ],
+      "category": "business",
+      "features": [
+        "IMAP email fetching converted into tickets and messages",
+        "Email filters",
+        "Real-time ticket updates",
+        "Social login and verification"
+      ],
+      "featured": false,
+      "order": 15,
+      "details": true,
+      "startDate": "2024-05",
+      "endDate": "2026-09"
+    },
+    {
+      "id": "revadops",
+      "slug": "revadops",
+      "name": "Revadops",
+      "shortDescription": "Content and media website with a full CMS for blog, ads, pricing and site layout.",
+      "fullDescription": "A Laravel + Vue website and admin CMS covering blog posts with comments, blog ad placements, a gallery, pricing plans, testimonials, FAQs, contact submissions and configurable site layout.",
+      "technologies": [
+        "Laravel",
+        "Vue",
+        "Vuetify",
+        "Pinia"
+      ],
+      "category": "web",
+      "features": [
+        "Blog posts, comments and ad settings",
+        "Gallery, pricing plans, testimonials and FAQs",
+        "Contact submissions and a service file downloader",
+        "Configurable site layout"
+      ],
+      "featured": false,
+      "order": 18,
+      "details": true,
+      "startDate": "2026-09",
+      "endDate": "2026-09",
+      "coverImage": {
+        "src": "/projects/revadops/home.jpg",
+        "alt": "Revadops homepage: digital media ad operations for publishers"
+      },
+      "gallery": [
+        {
+          "src": "/projects/revadops/services.jpg",
+          "alt": "Revadops ad operations management section"
+        }
+      ]
+    },
+    {
+      "id": "nordova",
+      "slug": "nordova",
+      "name": "Nordova",
+      "shortDescription": "Multilingual tour and transfer booking platform with quotes, customer accounts and an admin dashboard.",
+      "fullDescription": "A booking site for tours and private transfers (one-way or hourly), available in multiple languages, with quote requests, customer accounts and an admin dashboard that includes Bókun management. Its Laravel backend extends the Best in Rome Tour platform with wallets and withdrawals.",
+      "coverImage": {
+        "src": "/projects/nordova/home.jpg",
+        "alt": "Nordova booking site homepage with the transfer search form"
+      },
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Redux Toolkit",
+        "Ant Design",
+        "Tailwind CSS",
+        "Laravel",
+        "Laravel Reverb",
+        "Stripe"
+      ],
+      "category": "web",
+      "features": [
+        "Tour and transfer booking (one-way and hourly)",
+        "Quote requests",
+        "Customer accounts with email verification and OTP",
+        "Language-based routes",
+        "Admin dashboard with Bókun management",
+        "Wallets and withdrawals"
+      ],
+      "featured": false,
+      "order": 19,
+      "details": true,
+      "startDate": "2026-09",
+      "endDate": "2026-09"
+    },
+    {
+      "id": "aetherix-mail-server",
+      "slug": "aetherix-mail-server",
+      "name": "Aetherix Mail Server API",
+      "shortDescription": "JSON email API that queues and delivers mail for other Aetherix projects.",
+      "fullDescription": "A small Laravel service used by several projects (including this portfolio's contact form): a single JSON endpoint accepts recipients, subject and HTML or text, queues the email, and sends it over SMTP, with optional per-request SMTP configuration.",
+      "technologies": [
+        "Laravel",
+        "Queues",
+        "SMTP"
+      ],
+      "category": "tools",
+      "features": [
+        "POST /api/send-mail with validation",
+        "Queued delivery with a worker",
+        "Optional per-request SMTP host, credentials and sender"
+      ],
+      "featured": false,
+      "order": 21,
+      "details": true,
+      "startDate": "2026-08",
+      "endDate": "2026-09"
     }
   ]
 }

@@ -32,7 +32,7 @@ export function ProjectDetails({ project }: { project: ProjectCardData }) {
 
   return (
     <div className="space-y-7 p-6">
-      <ProjectCover name={project.name} image={project.coverImage} priority sizes="640px" className="aspect-[16/9] rounded-[var(--r-md)] border border-border" />
+      <ProjectCover name={project.name} image={project.coverImage} priority sizes="640px" className="aspect-[16/10] rounded-[var(--r-md)] border border-border [&_img]:object-top" />
 
       {(project.fullDescription ?? project.shortDescription) && (
         <p className="text-lg leading-relaxed text-foreground/90">{project.fullDescription ?? project.shortDescription}</p>
@@ -63,9 +63,22 @@ export function ProjectDetails({ project }: { project: ProjectCardData }) {
       {project.gallery.length > 0 && (
         <div className="grid gap-3 sm:grid-cols-2">
           {project.gallery.map((image) => (
-            <div key={image.src} className="relative aspect-[4/3] overflow-hidden rounded-[var(--r-md)] border border-border">
-              <Image src={image.src} alt={image.alt} fill sizes="320px" className="object-cover" />
-            </div>
+            <a
+              key={image.src}
+              href={image.src}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative block aspect-[16/10] overflow-hidden rounded-[var(--r-md)] border border-border"
+            >
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                sizes="(min-width: 640px) 300px, 90vw"
+                className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+              />
+              <span className="sr-only">Open full-size image in a new tab</span>
+            </a>
           ))}
         </div>
       )}
